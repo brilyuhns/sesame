@@ -3,7 +3,7 @@ RSpec.describe VaultActiverecord do
     expect(VaultActiverecord::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "has a patch method" do
+    expect(VaultActiverecord.respond_to?('patch')).to eq(true)
   end
 end
