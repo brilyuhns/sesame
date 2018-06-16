@@ -1,15 +1,15 @@
-require "vault_activerecord/version"
+require "sesame/version"
 require 'vault'
 require 'logger'
 
-module VaultActiverecord
+module Sesame
   $database_creds = {}
   class << self  
     attr_accessor :logger
 
     def logger 
       @logger = ::Logger.new(STDOUT).tap do |log|
-        log.progname = 'vault_activerecord' 
+        log.progname = 'sesame' 
       end
     end
   end

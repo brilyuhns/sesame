@@ -1,15 +1,15 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "vault_activerecord/version"
+require "sesame/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "vault_activerecord"
-  spec.version       = VaultActiverecord::VERSION
+  spec.name          = "sesame"
+  spec.version       = DbReconnect::VERSION
   spec.authors       = ["Divya Kunnath"]
   spec.email         = ["kunnathdivyal@gmail.com"]
 
-  spec.summary       = %q{Activerecord and vault integration}
+  spec.summary       = %q{Activerecord connection reset}
   spec.description   = %q{Refresh activerecord connection on change of credentials.}
   # spec.homepage      = "-"
   spec.license       = "MIT"

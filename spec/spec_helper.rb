@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "vault_activerecord"
+require "sesame"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

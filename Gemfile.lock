@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    vault_activerecord (0.1.0)
+    sesame (0.1.0)
       vault
 
 GEM
@@ -33,7 +33,7 @@ DEPENDENCIES
   bundler (~> 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
-  vault_activerecord!
+  sesame!
 
 BUNDLED WITH
    1.16.2
