@@ -4,6 +4,16 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+## Steps:
+- [x] Sample Rails 5 application
+- [x] Sample Rails 4 application
+- [x] Logging
+- [x] Install Vault
+- [x] Mechanism for getting new credentials
+- [ ] Open new connection on failure for Rails 4
+- [ ] Open new connection on failure Rails 5
+- [ ] Update readme
+
 ## Installation
 
 Add this line to your application's Gemfile:
